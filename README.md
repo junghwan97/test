@@ -1,16 +1,15 @@
 # **VitaQueue**
 **기간**: 2024.12.18 - 2025.01.00
-
 Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들이 공정한 과정을 통해 구매할 수 있는 이커머스 플랫폼입니다. 
 이 프로젝트는 높은 동시성 환경에서 사용자가 겪는 불편함을 최소화하는 데 중점을 두어 설계되었습니다.
 
----
+
 
 ## **아키텍처 구조**
 
 ![아키텍처 구조](https://github.com/user-attachments/assets/94ce572b-622e-49b4-bfe5-4cb55678f55a)
 
----
+
 
 ## **주요 기능**
 
@@ -26,7 +25,8 @@ Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들�
   - 데이터베이스 부하 감소 및 재고 관리 성능 향상
 - **Open Feign**을 활용한 MSA 서비스 모듈 간 통신 구현
 - **Prometheus**와 **Grafana**를 활용하여 모니터링 시스템 구축
----
+
+
 
 ## **개발 환경 및 기술 스택**
 
@@ -44,29 +44,27 @@ Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들�
 ![Spring Cloud OpenFeign](https://img.shields.io/badge/Spring%20Cloud%20OpenFeign-6DB33F?style=for-the-badge&logo=OpenFeign&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
 
----
 
 ### **DB**
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
----
 
 ### **인프라**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 
----
+
 
 ## **ERD**
 
 ![ERD](https://github.com/user-attachments/assets/acd47eee-11d8-436f-a56c-ea9e9121bbe5)
 
----
+
 
 ## **API 문서**
 
 [API 문서](https://documenter.getpostman.com/view/30963150/2sAYJ3DfzK)
 
----
+
 
 ## **성능 최적화 및 트러블슈팅**
