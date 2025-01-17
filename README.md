@@ -17,7 +17,7 @@ Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들�
 - **API Gateway**를 JWT 검증 및 요청 라우팅 처리
   - 단일 진입점에서 JWT 인증과 요청 분배를 담당
 - **Spring Security**를 활용하여 회원 가입 및 사용자 인증 관리
-- Google SMTP를 사용한 이메일 인증
+- Google SMTP를 활용하여 이메일 인증
 - JWT를 활용하여 로그인 구현
 - **스케줄러**를 통한 주문 상태 관리
   - 시간의 흐름에 따라 주문 상태 변경
@@ -63,10 +63,10 @@ Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들�
 
 ---
 
-## **📜 API 문서**
+## **API 문서**
 
-[API 문서 바로가기](https://documenter.getpostman.com/view/30963150/2sAYJ3DfzK)
+[API 문서](https://documenter.getpostman.com/view/30963150/2sAYJ3DfzK)
 
 ---
 
-## **📈 성능 최적화 및 트러블슈팅**
+## **성능 최적화 및 트러블슈팅**
