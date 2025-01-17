@@ -6,7 +6,7 @@ Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들�
 
 
 
-## **아키텍처 구조**
+## **아키텍처**
 
 ![아키텍처 구조](https://github.com/user-attachments/assets/94ce572b-622e-49b4-bfe5-4cb55678f55a)
 
