@@ -51,7 +51,7 @@ Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들�
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 
-### **인프라**
+### **infrastructure**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 
 
