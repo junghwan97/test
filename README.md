@@ -72,4 +72,4 @@
 
 # **트러블슈팅**
 - **수평 확장 시 @scheduled 어노테이션 사용 시 발생하는 문제점 개선** v
-- - **캐시 DB Replication** v
+- - **캐시 DB  Replication** v
