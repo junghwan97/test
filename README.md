@@ -1,55 +1,45 @@
-# **VitaQueue 프로젝트 소개**
-**기간**: 2024.12.18 - 2025.01.00
+# **🌟VitaQueue 프로젝트 소개**
+**📅기간**: 2024.12.18 - 2025.01.00
 
 - Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들이 공정한 과정을 통해 구매할 수 있는 이커머스 플랫폼입니다.
 - 이 프로젝트는 높은 동시성 환경에서 사용자가 겪는 불편함을 최소화하는 데 중점을 두어 설계되었습니다.
 
-# 개발 환경 및 기술 스택
+## 🛠️개발 환경 및 기술 스택
 
-## 개발 환경
-
-### 언어
+### 🖥️언어
 - **Java**: 17
 - **Gradle**: 8.11.1
 
-### 프레임워크
+### 🚀프레임워크
 - **Spring Boot**: 3.3.6
 
----
-
-## 라이브러리
-- **Spring Data JPA**
+### 📚라이브러리
+- **Spring Data JPA(Hibernate)**
 - **Spring Security**
 - **Spring Cloud Gateway**
 - **Spring Cloud Netflix Eureka**
 - **Spring Cloud OpenFeign**
-- **Hibernate**
 
----
-
-## DB
+### 🗄️DB
 - **MySQL**: 8.0
 - **Redis**: 7.4.1
 
----
-
-## Infrastructure
+### 🛳️Infrastructure
 - **Docker**
 
 
-## **API 문서**
-
-[API 문서](https://documenter.getpostman.com/view/30963150/2sAYJ3DfzK)
+### **📑API 문서**
+[API 문서 바로가기](https://documenter.getpostman.com/view/30963150/2sAYJ3DfzK)
 
 ---
 
-# **VitaQueue 프로젝트 설명**
+# **📝VitaQueue 프로젝트 설명**
 
-## **아키텍처**
 
+### **🏗️아키텍처**
 ![아키텍처 구조](https://github.com/user-attachments/assets/94ce572b-622e-49b4-bfe5-4cb55678f55a)
 
-## **주요 기능**
+## **⚙️주요 기능**
 
 - 한정 수량 상품 구매 기능
 - **Redis 캐싱**기반의 상품 재고 관리
@@ -66,7 +56,7 @@
 
 ---
 
-# **성능 개선**
+# **⚡성능 개선**
 - **Redis 분산락 적용을 통한 재고 동시성 처리 개선**
 - 기술적 의사결정:
   - 비관적 락 사용 시 락 획득 지연에 따른 성능 저하 발생
@@ -79,4 +69,7 @@
 
 # **트러블슈팅**
 - **수평 확장 시 @scheduled 어노테이션 사용 시 발생하는 문제점 개선** v
-- - **캐시 DB  Replication** v
+- **캐시 DB  Replication** v
+
+# **향후 개선할 것**
+- **수평 확장 시 @scheduled 어노테이션 사용 시 발생하는 문제점 개선** v
