@@ -36,13 +36,10 @@
 # **📝VitaQueue 프로젝트 설명**
 
 
-### **🏗️아키텍처**
+## **🏗️아키텍처**
 ![아키텍처 구조](https://github.com/user-attachments/assets/94ce572b-622e-49b4-bfe5-4cb55678f55a)
 
-### **🏗Sequence Diagram**
-![Sequence Diagram](https://github.com/user-attachments/assets/0f28b3ac-9d86-495b-b987-30bc226dd9fc)
-
-### **⚙️주요 기능**
+## **⚙️주요 기능**
 
 - 한정 수량 상품 구매 기능
 - **Redis 캐싱**기반의 상품 재고 관리
@@ -56,6 +53,10 @@
 - **스케줄러**를 통한 주문 상태 관리
   - 시간의 흐름에 따라 주문 상태 변경
 - **Prometheus**와 **Grafana**를 활용하여 모니터링 시스템 구축 v
+
+
+## **🏗Sequence Diagram**
+![Sequence Diagram](https://github.com/user-attachments/assets/0f28b3ac-9d86-495b-b987-30bc226dd9fc)
 
 ---
 
