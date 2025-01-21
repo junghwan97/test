@@ -54,9 +54,14 @@
   - 시간의 흐름에 따라 주문 상태 변경
 - **Prometheus**와 **Grafana**를 활용하여 모니터링 시스템 구축 v
 
+<details>
+<summary>🏗 Sequence Diagram</summary>
+<div markdown="1">
 
-## **🏗Sequence Diagram**
-![Sequence Diagram](https://github.com/user-attachments/assets/0f28b3ac-9d86-495b-b987-30bc226dd9fc)
+![Sequence Diagram](https://github.com/user-attachments/assets/32a8be83-2b84-45c8-af69-f2ac9c0d4b2c)
+
+</div>
+</details>
 
 ---
 
@@ -66,13 +71,12 @@
   - 비관적 락 사용 시 락 획득 지연에 따른 성능 저하 발생
   - 낙관적 락 사용 시 많은 요청으로 인한 충돌 가능성이 높기 때문에 적절하지 않음
   - Redis 분산락을 활용하여 더욱 빠른 락 획득 / 해제 가능
-- **인덱스 적용을 통한 조회 성능 최적화** v 
-- **메시지 큐를 활용한 데이터 일관성 강화** v
+
 
 ---
 
 # **트러블슈팅**
-- **캐시 DB  Replication** v
+
 
 # **향후 개선할 것**
-- **수평 확장 시 @scheduled 어노테이션 사용 시 발생하는 문제점 개선** v
+
