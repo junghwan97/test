@@ -1,9 +1,56 @@
 # **🌟VitaQueue 프로젝트 소개**
-**📅기간**: 2024.12.18 - 2025.01.00
+**📅MVP 개발기간**: 2024.12.18 - 2025.01.18
 
 - Vitaqueue는 한정된 재고를 가진 상품을 구매하려는 사용자들이 공정한 과정을 통해 구매할 수 있는 이커머스 플랫폼입니다.
 - 이 프로젝트는 높은 동시성 환경에서 사용자가 겪는 불편함을 최소화하는 데 중점을 두어 설계되었습니다.
 
+## 프로젝트 실행 방법
+
+### 1. **환경 요구 사항**
+- **Docker** 및 **Docker Compose** 설치
+- MySQL Workbench 또는 기타 데이터베이스 클라이언트 (선택 사항)
+
+### 2. **프로젝트 클론**
+```bash
+git clone https://github.com/your-repository/VitaQueue.git
+cd VitaQueue
+```
+<details>
+<summary>env 파일 예시</summary>
+<div markdown="1">
+  
+- 공통 설정
+  - JWT_SECRET_KEY=your_secret_key
+
+- User DB
+  - USER_MYSQL_DATABASE=user_db
+  - USER_MYSQL_USERNAME=user
+  - USER_MYSQL_PASSWORD=user_password
+
+- Product DB
+  - PRODUCT_MYSQL_DATABASE=product_db
+  - PRODUCT_MYSQL_USERNAME=product
+  - PRODUCT_MYSQL_PASSWORD=product_password
+
+- Order DB
+  - ORDER_MYSQL_DATABASE=order_db
+  - ORDER_MYSQL_USERNAME=order
+  - ORDER_MYSQL_PASSWORD=order_password
+
+- Wishlist DB
+  - WISHLIST_MYSQL_DATABASE=wishlist_db
+  - WISHLIST_MYSQL_USERNAME=wishlist
+  - WISHLIST_MYSQL_PASSWORD=wishlist_password
+
+</div>
+</details>
+
+### 3. **Docker Compose로 실행**
+```bash
+docker-compose up --build
+```
+
+---
 ## 🛠️개발 환경 및 기술 스택
 
 ### 🖥️언어
