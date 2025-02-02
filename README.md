@@ -84,7 +84,7 @@ docker-compose up --build
 
 
 ## **🏗️아키텍처**
-![아키텍처 구조](https://github.com/user-attachments/assets/94ce572b-622e-49b4-bfe5-4cb55678f55a)
+![아키텍처 구조](https://github.com/user-attachments/assets/06cdb835-5893-4c96-9b40-1ce73386f49d)
 
 ## **⚙️주요 기능**
 
